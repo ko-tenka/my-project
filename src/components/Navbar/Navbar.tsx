@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import './navbarglav.css';
+import './navbar.css';
 
 export default function Navbarglav() {
 
