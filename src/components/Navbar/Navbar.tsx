@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import './Navbar.css';
 
-export default function Navbarglav() {
+export default function Navbar() {
 
   const [isImageClicked, setIsImageClicked] = useState(false);
 
