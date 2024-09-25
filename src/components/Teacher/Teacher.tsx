@@ -1,6 +1,8 @@
 
 import './Teacher.css'
+
 import marina from '../../assets/marina.jpg'
+import line from '../../assets/line.png'
 
 export default function Teacher() {
   return (
@@ -16,7 +18,7 @@ export default function Teacher() {
 Обладатели многократных побед на всероссийских и международных конкурсах и фестивалей!</p>
 </div>
     </div>
-    {/* <img className='line' src="./line3.PNG" alt="линия" /> */}
+    <img className='line' src={line} alt="линия" />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import  { useState } from 'react';
 import './navbar.css';
+import menu from '../../assets/menu.png'
 
 import close from '../../assets/close.png'
 export default function Navbar() {
@@ -25,7 +26,7 @@ export default function Navbar() {
         {!isImageClicked ?(
           <img 
             className='menu' 
-            src="./menu.png" 
+            src={menu} 
             alt="меню" 
             onClick={handleImageClick}  
           />
