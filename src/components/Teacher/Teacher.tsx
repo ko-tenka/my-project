@@ -1,11 +1,12 @@
 
 import './Teacher.css'
+import marina from '../../assets/marina.jpg'
 
 export default function Teacher() {
   return (
     <div className='glav_conteiner'>
         <div className='oneTeacher'>
-      <img className='photo-marina' src="./Marina.JPG" alt="Фото руководителя" />
+      <img className='photo-marina' src={marina} alt="Фото руководителя" />
       <div className='opisanie'>
       <p className='zagolovok'>Руководитель клуба</p>
       <p className='text_marina'> Закончила Кузбасский колледж культуры и искусств имени народного артиста СССР Иосифа Давыдовича Кобзона! <br/>

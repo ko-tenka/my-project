@@ -1,12 +1,9 @@
-
-import Navbar from './components/Navbar/Navbar'
-import Teacher from './components/Teacher/Teacher'
+import MainPage from './pages/MainPage'
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Teacher/>
+      <MainPage/>
     </>
   )
 }
