@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import './navbar.css';
 
+import close from '../../assets/close.png'
 export default function Navbar() {
 
   const [isImageClicked, setIsImageClicked] = useState(false);
@@ -31,7 +32,7 @@ export default function Navbar() {
         ):(
           <div className='spisok_phone'>
             <img className="close" 
-              src="./close.png"
+              src={close}
               alt="крестик" 
               onClick={handCloseClicked} />
             <a className='comp2' onClick={handCloseClicked} href='#teachers'>педагоги</a>
