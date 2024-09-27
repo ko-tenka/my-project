@@ -2,10 +2,12 @@ import './MainPage.css';
 
 import Map from '../components/Map/Map'
 import Teacher from '../components/Teacher/Teacher'
+import News from '../components/News/News'
 
 import Slider from '../components/Slider/Slider'
 import Navbar from '../components/Navbar/Navbar'
 import pin from '../assets/pin.png'
+
 
 
 export default function MainPage() {
@@ -31,15 +33,17 @@ export default function MainPage() {
       </div>
       <Slider/>
       <div id="news" className='newScholl'>
-        <h1 className='newSchollTxt1'>Новости студии</h1>
+        <h1 className='newSchollTxt1'>Новости</h1>
+      <News/>
       </div>
       <div id="teachers">
-        <h1>Наши Педагоги</h1>
+        <h1 className='title_ped'>Наши Педагоги</h1>
         <Teacher/>
       </div>
       <div id="contacts" className='apiConteiner'>
+      <h1 className='contant1'>Наши контакты</h1>
         <div id="map" className='api'><Map/></div>
-        <h1 className='contant1'>Наши контакты</h1>
+        {/* <h1 className='contant1'>Наши контакты</h1> */}
         <div className='contactConteiner'>
           <a href="https://t.me/mazedancecompany" className='contant2'>Telegram</a>
           <a href="https://vk.com/mdcompany27" className='contant2'>VKontakte</a>
